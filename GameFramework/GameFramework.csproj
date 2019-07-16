@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87BB96FD-BD09-4831-97AC-6DDF0BE9C62F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameFramework</RootNamespace>
+    <AssemblyName>GameFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\GameFramework.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\DataStruct\LoadType.cs" />
+    <Compile Include="Base\EventPool\BaseEventArgs.cs" />
+    <Compile Include="Base\EventPool\EventPool.cs" />
+    <Compile Include="Base\EventPool\EventPool.Event.cs" />
+    <Compile Include="Base\EventPool\EventPoolMode.cs" />
+    <Compile Include="Base\GameFrameworkAction.cs" />
+    <Compile Include="Base\GameFrameworkEntry.cs" />
+    <Compile Include="Base\GameFrameworkEventArgs.cs" />
+    <Compile Include="Base\GameFrameworkException.cs" />
+    <Compile Include="Base\GameFrameworkModule.cs" />
+    <Compile Include="Base\GameFrameworkSegment.cs" />
+    <Compile Include="Base\Log\GameFrameworkLog.cs" />
+    <Compile Include="Base\Log\GameFrameworkLog.ILogHelper.cs" />
+    <Compile Include="Base\Log\GameFrameworkLogLevel.cs" />
+    <Compile Include="Base\ReferencePool\IReference.cs" />
+    <Compile Include="Base\ReferencePool\ReferencePool.cs" />
+    <Compile Include="Base\ReferencePool\ReferencePool.ReferenceCollection.cs" />
+    <Compile Include="Base\ReferencePool\ReferencePoolInfo.cs" />
+    <Compile Include="Base\TaskPool\ITask.cs" />
+    <Compile Include="Base\TaskPool\ITaskAgent.cs" />
+    <Compile Include="Base\TaskPool\TaskPool.cs" />
+    <Compile Include="Base\Variable\GenericVariable.cs" />
+    <Compile Include="Base\Variable\Variable.cs" />
+    <Compile Include="Base\Version\Version.cs" />
+    <Compile Include="Base\Version\Version.IVersionHelper.cs" />
+    <Compile Include="Download\Constant.cs" />
+    <Compile Include="Download\DownloadAgentHelperCompleteEventArgs.cs" />
+    <Compile Include="Download\DownloadAgentHelperErrorEventArgs.cs" />
+    <Compile Include="Download\DownloadAgentHelperUpdateEventArgs.cs" />
+    <Compile Include="Download\DownloadFailureEventArgs.cs" />
+    <Compile Include="Download\DownloadManager.cs" />
+    <Compile Include="Download\DownloadManager.DownloadAgent.cs" />
+    <Compile Include="Download\DownloadManager.DownloadCounter.cs" />
+    <Compile Include="Download\DownloadManager.DownloadCounter.DownloadCounterNode.cs" />
+    <Compile Include="Download\DownloadManager.DownloadTask.cs" />
+    <Compile Include="Download\DownloadManager.DownloadTaskStatus.cs" />
+    <Compile Include="Download\DownloadStartEventArgs.cs" />
+    <Compile Include="Download\DownloadSuccessEventArgs.cs" />
+    <Compile Include="Download\DownloadUpdateEventArgs.cs" />
+    <Compile Include="Download\IDownloadAgentHelper.cs" />
+    <Compile Include="Download\IDownloadManager.cs" />
+    <Compile Include="ObjectPool\IObjectPool.cs" />
+    <Compile Include="ObjectPool\IObjectPoolManager.cs" />
+    <Compile Include="ObjectPool\ObjectBase.cs" />
+    <Compile Include="ObjectPool\ObjectInfo.cs" />
+    <Compile Include="ObjectPool\ObjectPoolBase.cs" />
+    <Compile Include="ObjectPool\ObjectPoolManager.cs" />
+    <Compile Include="ObjectPool\ObjectPoolManager.ObjectPool.cs" />
+    <Compile Include="ObjectPool\ReleaseObjectFilterCallback.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource\AllAboutResoucresCallback.cs" />
+    <Compile Include="Resource\CheckVersionListResult.cs" />
+    <Compile Include="Resource\Constant.cs" />
+    <Compile Include="Resource\ILoadResourceAgentHelper.cs" />
+    <Compile Include="Resource\IResourceHelper.cs" />
+    <Compile Include="Resource\IResourceManager.cs" />
+    <Compile Include="Resource\LoadAssetCallbacks.cs" />
+    <Compile Include="Resource\LoadResourceAgentHelperErrorEventArgs.cs" />
+    <Compile Include="Resource\LoadResourceAgentHelperLoadCompleteEventArgs.cs" />
+    <Compile Include="Resource\LoadResourceAgentHelperParseBytesCompleteEventArgs.cs" />
+    <Compile Include="Resource\LoadResourceAgentHelperReadBytesCompleteEventArgs.cs" />
+    <Compile Include="Resource\LoadResourceAgentHelperReadFileCompleteEventArgs.cs" />
+    <Compile Include="Resource\LoadResourceAgentHelperUpdateEventArgs.cs" />
+    <Compile Include="Resource\LoadResourceProgress.cs" />
+    <Compile Include="Resource\LoadResourceStatus.cs" />
+    <Compile Include="Resource\LoadSceneCallbacks.cs" />
+    <Compile Include="Resource\ResourceManager.AssetInfo.cs" />
+    <Compile Include="Resource\ResourceManager.cs" />
+    <Compile Include="Resource\ResourceManager.LoadType.cs" />
+    <Compile Include="Resource\ResourceManager.ReadWriteResourceInfo.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceChecker.CheckInfo.CheckStatus.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceChecker.CheckInfo.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceChecker.CheckInfo.LocalVersionInfo.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceChecker.CheckInfo.RemoteVersionInfo.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceChecker.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceInfo.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceIniter.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.AssetObject.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.LoadAssetTask.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.LoadDependencyAssetTask.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.LoadResourceAgent.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.LoadResourceAgent.WaitingType.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.LoadResourceTaskBase.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.LoadSceneTask.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceLoader.ResourceObject.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceName.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceNameComparer.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceUpdater.cs" />
+    <Compile Include="Resource\ResourceManager.ResourceUpdater.UpdateInfo.cs" />
+    <Compile Include="Resource\ResourceManager.VersionListProcessor.cs" />
+    <Compile Include="Resource\ResourceMode.cs" />
+    <Compile Include="Resource\ResourceUpdateChangedEventArgs.cs" />
+    <Compile Include="Resource\ResourceUpdateFailureEventArgs.cs" />
+    <Compile Include="Resource\ResourceUpdateStartEventArgs.cs" />
+    <Compile Include="Resource\ResourceUpdateSuccessEventArgs.cs" />
+    <Compile Include="Resource\UnloadSceneCallbacks.cs" />
+    <Compile Include="Resource\UpdateVersionListCallbacks.cs" />
+    <Compile Include="Utility\Utility.Assembly.cs" />
+    <Compile Include="Utility\Utility.Converter.cs" />
+    <Compile Include="Utility\Utility.cs" />
+    <Compile Include="Utility\Utility.Encryption.cs" />
+    <Compile Include="Utility\Utility.Json.cs" />
+    <Compile Include="Utility\Utility.Json.IJsonHelper.cs" />
+    <Compile Include="Utility\Utility.Nullable.cs" />
+    <Compile Include="Utility\Utility.Path.cs" />
+    <Compile Include="Utility\Utility.Profiler.cs" />
+    <Compile Include="Utility\Utility.Profiler.IProfilerHelper.cs" />
+    <Compile Include="Utility\Utility.Random.cs" />
+    <Compile Include="Utility\Utility.Text.cs" />
+    <Compile Include="Utility\Utility.Verifier.Crc32.cs" />
+    <Compile Include="Utility\Utility.Verifier.cs" />
+    <Compile Include="Utility\Utility.Zip.cs" />
+    <Compile Include="Utility\Utility.Zip.IZipHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ObjectPool\ObjectPoolManager.Object.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
