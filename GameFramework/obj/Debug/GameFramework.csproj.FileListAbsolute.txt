@@ -4,3 +4,4 @@ F:\AGF\GameFramework\GameFramework\bin\Debug\GameFramework.dll
 F:\AGF\GameFramework\GameFramework\bin\Debug\GameFramework.pdb
 F:\AGF\GameFramework\GameFramework\obj\Debug\GameFramework.dll
 F:\AGF\GameFramework\GameFramework\obj\Debug\GameFramework.pdb
+F:\AGF\GameFramework\GameFramework\obj\Debug\GameFramework.csprojAssemblyReference.cache

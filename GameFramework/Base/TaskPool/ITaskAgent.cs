@@ -26,7 +26,7 @@
         /// <summary>
         /// 关闭并清理任务代理。
         /// </summary>
-        void ShutDown();
+        void Shutdown();
 
         /// <summary>
         /// 开始处理任务。

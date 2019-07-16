@@ -280,7 +280,7 @@ namespace GameFramework.Resource
         void SetObjectPoolManager(IObjectPoolManager objectPoolManager);
 
         /// <summary>
-        /// TODO 设置下载管理器。
+        /// 设置下载管理器。
         /// </summary>
         /// <param name="downloadManager">下载管理器。</param>
         void SetDownloadManager(IDownloadManager downloadManager);

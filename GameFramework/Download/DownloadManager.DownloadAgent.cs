@@ -368,11 +368,6 @@ namespace GameFramework.Download
 
                 m_Task.Done = true;
             }
-
-            public void ShutDown()
-            {
-                throw new NotImplementedException();
-            }
         }
     }
 }

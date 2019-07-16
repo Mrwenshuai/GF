@@ -113,12 +113,12 @@ namespace GameFramework
         {
             while (FreeAgentCount > 0)
             {
-                m_FreeAgents.Pop().ShutDown();
+                m_FreeAgents.Pop().Shutdown();
             }
 
             foreach (var workingAgent in m_WorkingAgents)
             {
-                workingAgent.ShutDown();
+                workingAgent.Shutdown();
             }
 
             m_WorkingAgents.Clear();
