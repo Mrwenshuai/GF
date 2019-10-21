@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="Configs/AssetBundleBuilder" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/AssetBundleCollection" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/AssetBundleEditor" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/BuildInfo" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/BuildSettings" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DataTableCodeTemplate" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DebuggerSkin" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DefaultConfig" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DefaultDictionary" LoadType="0" Packed="False" />
+      <AssetBundle Name="DataTables" LoadType="0" Packed="True" />
+      <AssetBundle Name="Entities/FsmDemo" LoadType="0" Packed="False" />
+      <AssetBundle Name="Fonts/MainFont" LoadType="0" Packed="False" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="092b1369bd8a779428db6ab0e08dcd37" AssetBundleName="Configs/AssetBundleEditor" />
+      <Asset Guid="0b663a55930090e48add4b988106e8b3" AssetBundleName="Entities/FsmDemo" />
+      <Asset Guid="0bc810744699fc74b9a9e68f01221fe4" AssetBundleName="Configs/DefaultConfig" />
+      <Asset Guid="134bea3a47cb3d644bf8e8a89e48622c" AssetBundleName="DataTables" />
+      <Asset Guid="17274eefc8feb1b46ab62d62119e64b9" AssetBundleName="Fonts/MainFont" />
+      <Asset Guid="239366f83979ffa48a45dac2f0f1e8cb" AssetBundleName="DataTables" />
+      <Asset Guid="2630c0a31d19991438f440dcf91ac8ee" AssetBundleName="DataTables" />
+      <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" AssetBundleName="DataTables" />
+      <Asset Guid="352da872791696c48af3b21132e3e3c3" AssetBundleName="DataTables" />
+      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" AssetBundleName="DataTables" />
+      <Asset Guid="48f3b6b3eed28674daffb2c5f6ea2862" AssetBundleName="Configs/DefaultConfig" />
+      <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" AssetBundleName="DataTables" />
+      <Asset Guid="4db6a299939bfe94893585eb387f577a" AssetBundleName="DataTables" />
+      <Asset Guid="533ba34fd74ecef459d446487fd6d071" AssetBundleName="Configs/AssetBundleBuilder" />
+      <Asset Guid="5ad50a98a83a2a843ae5d8cd8ee6b2a3" AssetBundleName="Configs/DebuggerSkin" />
+      <Asset Guid="5d01e1fff29f50747a3ae708a533b3e1" AssetBundleName="Configs/BuildInfo" />
+      <Asset Guid="64f3bb52c6a54854688fcc656af2b1c9" AssetBundleName="DataTables" />
+      <Asset Guid="8b1acacd22538f34cb85287a0781ea5e" AssetBundleName="DataTables" />
+      <Asset Guid="8c156b7689e73594385b4914e01b28da" AssetBundleName="Configs/DefaultDictionary" />
+      <Asset Guid="8e114ded6a865324588170636872943c" AssetBundleName="DataTables" />
+      <Asset Guid="97d117308cf86924289e81e7e71dd5dd" AssetBundleName="DataTables" />
+      <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" AssetBundleName="DataTables" />
+      <Asset Guid="9c3961f379234354e813d7b38146424d" AssetBundleName="DataTables" />
+      <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" AssetBundleName="DataTables" />
+      <Asset Guid="a33e23ae848110243820cda82120b105" AssetBundleName="DataTables" />
+      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" AssetBundleName="DataTables" />
+      <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" AssetBundleName="DataTables" />
+      <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" AssetBundleName="DataTables" />
+      <Asset Guid="b2cebe04343227945bab3729ca9a3493" AssetBundleName="DataTables" />
+      <Asset Guid="b338dad1d12725848b6ff736632749a9" AssetBundleName="Configs/BuildSettings" />
+      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" AssetBundleName="DataTables" />
+      <Asset Guid="d8ffb96d923fb734aabcc349eb252ef7" AssetBundleName="Configs/DataTableCodeTemplate" />
+      <Asset Guid="e0792649e7774a24d8e7cceba0231c61" AssetBundleName="DataTables" />
+      <Asset Guid="f2f97a713beae744181ba934f9c4113a" AssetBundleName="DataTables" />
+      <Asset Guid="f46490ed0d1e95849a69d9a208787b66" AssetBundleName="Configs/AssetBundleCollection" />
+      <Asset Guid="fdb5edd099d06b045af609ba3172400a" AssetBundleName="DataTables" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>
